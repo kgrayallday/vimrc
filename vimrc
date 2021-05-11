@@ -24,6 +24,9 @@ endif
 call plug#begin('~/.vim/plugged)
 
 Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
+Plug 'vim-airline/vim-aitline'
+Plug 'vim-airline/vim-aitline-themes'
 
 call plug#end()
 
