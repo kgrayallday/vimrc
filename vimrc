@@ -24,9 +24,11 @@ endif
 call plug#begin('~/.vim/plugged)
 
 Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-aitline'
 Plug 'vim-airline/vim-aitline-themes'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()
 
